@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Usuario</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" 
+        rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+        crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+  <div class="login-card">
+    <h3>Registro de Usuario</h3>
+
+    <form action="#" method="post">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre completo</label>
+        <input type="text" class="form-control" id="nombre" name="nombre" 
+               minlength="5" maxlength="50" required>
+      </div>
+      <div class="mb-3">
+        <label for="correo" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="correo" name="correo" required>
+      </div>
+      <div class="mb-3">
+        <label for="usuario" class="form-label">Usuario</label>
+        <input type="text" class="form-control" id="usuario" name="usuario" required>
+      </div>
+      <div class="mb-3">
+        <label for="contrasena" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="contrasena" name="contrasena" required>
+      </div>
+      <div class="mb-3">
+        <label for="confirmar" class="form-label">Confirmar Contraseña</label>
+        <input type="password" class="form-control" id="confirmar" name="confirmar" required>
+      </div>
+         <div class="mb-3">
+        <label for="fechaNacimiento" class="form-label">Fecha de nacimiento</label>
+        <input type="date" class="form-control" id="fechaNacimiento" name="fechaNacimiento" required>
+      </div>
+      <div class="mb-3">
+        <label for="genero" class="form-label">Género</label>
+        <select class="form-select" id="genero" name="genero" required>
+          <option value="" disabled selected>Seleccione una opción</option>
+          <option value="masculino">Masculino</option>
+          <option value="femenino">Femenino</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-login">Registrarse</button>
+      <div class="enlaces mt-3">
+        <p>¿Ya tienes cuenta? <a href="index.html">Inicia Sesión</a></p>
+      </div>
+    </form>
+  </div>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-FKy0EforGCIyvpw9Hj89jCn3Nv7wiPL7v2YYwJrWvCkXBnnVDxM+D2sQbITxi" 
+          crossorigin="anonymous"></script>
+</body>
+</html>
