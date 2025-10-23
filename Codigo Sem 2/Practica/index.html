@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+</head>
+
+<body class="bg-light">
+
+    <section class="agregaProducto mb-4 mt-4 p-5">
+
+        <form id="agregaProducto" action="">
+
+            <h1>Simulador de Tienda - GadgetShop</h1>
+            <div class="card shadow p-3">
+
+                <h4>Agregar Producto</h4>
+                <div class="">
+                    <label for="nombreProducto" class="form-label">Nombre del producto</label>
+                    <input type="text" class="form-control" name="nombreProducto" id="nombreProducto"
+                        placeholder="Ej: Auriculares" >
+
+                    <label for="cantidadProducto" class="form-label">Cantidad</label>
+                    <input type="number" class="form-control" name="cantidadProducto" id="cantidadProducto" >
+
+                    <label for="precioProducto" class="form-label">Precio Unitario</label>
+                    <input type="number" class="form-control" name="precioProducto" id="precioProducto" >
+
+                    <button type="submit" class="btn btn-primary mt-4" id="send">Agregar al carrito</button>
+
+                </div>
+
+            </div>
+
+        </form>
+
+    </section>
+
+
+    <Section class="mb-4 mt-4 p-5">
+        <div class="resumenCompra card shadow p-2">
+            <h4>Resumen de Compra</h4>
+            <div class="mostrarCompraHead">
+                <h5>Producto</h5>
+                <h5>Cantidad</h5>
+                <h5>Precio Unttario</h5>
+                <h5>Subtotal</h5>
+            </div>
+            <div class="mostrarCompraData">
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+                <p>test</p>
+
+            </div>
+
+
+        </div>
+
+    </Section>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
