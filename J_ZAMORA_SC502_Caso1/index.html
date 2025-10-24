@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,23 +8,35 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
+
 <body>
 
     <header>
         <h1>🎬 CineMax - Venta de Entradas</h1>
         <p>Donde las historias cobran vida</p>
     </header>
-    
+
+    <div class="video-lateral derecha">
+        <iframe width="300" height="200" src="https://www.youtube.com/embed/zyYgDtY2AMY?si=NBR0efmPT10j6Y6t"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="imagen-lateral izquierda">
+        <img src="assets/css/cinerex.jpg" alt="Poster izquierdo">
+    </div>
 
     <main>
         <section class="formulario">
             <h2>Registrar nueva venta</h2>
 
             <label>Nombre de la película:</label>
-            <input type="text" id="pelicula" placeholder="Ej: Interstellar">
+            <input type="text" id="pelicula" placeholder="Ej: Transformers">
 
             <label>Cantidad de entradas:</label>
-            <input type="number" id="entradas" placeholder="Ej: 2">
+            <input type="number" id="entradas" placeholder="Mínimo de una entrada requerida">
 
             <label>Tipo de sala:</label>
             <select id="tipoSala">
@@ -69,7 +82,7 @@
     </main>
 
     <footer>
-        <p>CineMax | En honor a "Cine Rex" historia de Costa Rica est 1958 - 1999</p>
+        <p>CineMax © | En honor a "Cine Rex" historia de Costa Rica est 1958 - 1999 | Foto adjunta a la izquierda</p>
     </footer>
 
     <script src="assets/js/app.js"></script>
